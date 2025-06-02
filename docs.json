@@ -11,6 +11,32 @@
   "navigation": {
         "groups": [
           {
+            "group": "Accounts",
+            "pages": [
+              "accounts/2fa",
+              "accounts/forgotid",
+              "accounts/accessemail",
+              "accounts/cancelling"
+            ]
+          },
+          {
+            "group": "Billing",
+            "pages": [
+              "billing/cycle",
+              "billing/refund",
+              "billing/payinvoice"
+            ]
+          },
+          {
+            "group": "Virtual Servers",
+            "pages": [
+              "vs/snapshot",
+              "vs/restoresnap",
+              "vs/reinstallos",
+              "vs/accessconsole"
+            ]
+          },
+          {
             "group": "Policies",
             "pages": [
               "policies/tos",
@@ -37,12 +63,12 @@
         {
           "anchor": "Homepage",
           "href": "https://cloudbud.com",
-          "icon": "book-open-cover"
+          "icon": "house"
         },
         {
           "anchor": "Documentation",
           "href": "https://test-96a9787a.mintlify.app/",
-          "icon": "slack"
+          "icon": "book-open-cover"
         }
       ]
     }
