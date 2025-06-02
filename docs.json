@@ -11,11 +11,13 @@
   "navigation": {
         "groups": [
           {
-            "group": "Legal",
+            "group": "Policies",
             "pages": [
-              "legal/tos",
-              "legal/aup",
-              "legal/sla"
+              "policies/tos",
+              "policies/aup",
+              "policies/sla",
+              "policies/refund",
+              "policies/privacy"
             ]
           },
           {
