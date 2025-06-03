@@ -16,7 +16,14 @@
               "accounts/2fa",
               "accounts/forgotid",
               "accounts/accessemail",
-              "accounts/cancelling"
+              "accounts/cancelling",
+              {
+                "group": "Accounts 2",
+                "pages": [
+                  "billing/cycle",
+                  "billing/refund"
+                ]
+              }
             ]
           },
           {
