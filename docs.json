@@ -9,6 +9,24 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
+    "logo":
+    {
+      "light": "/logo/color.svg",
+      "dark": "/logo/color.svg"
+    },
+    "navbar": {
+      "links": [
+        {
+        "label": "Contact Us",
+        "href": "https://my.cloudbud.com/contact.php"
+        }
+      ],
+      "primary": {
+        "type": "button",
+        "label": "Dashboard",
+        "href": "https://my.cloudbud.com/"
+      }
+    },
         "groups": [
           {
             "group": "Accounts",
@@ -54,37 +72,6 @@
               "policies/privacy"
             ]
           }
-        ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Homepage",
-          "href": "https://cloudbud.com",
-          "icon": "house"
-        },
-        {
-          "anchor": "Documentation",
-          "href": "https://test-96a9787a.mintlify.app/",
-          "icon": "book-open-cover"
-        }
-      ]
-    }
-  },
-  "logo": {
-    "light": "/logo/color.svg",
-    "dark": "/logo/color.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Contact Us",
-        "href": "https://my.cloudbud.com/contact.php"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://my.cloudbud.com/"
-    }
+        ]
   }
 }
